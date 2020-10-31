@@ -1,0 +1,25 @@
+1.spring整合(配置文件)
+    1.1 导入依赖（9个）
+        spring核心包
+        mysql核心包
+        mybatis-spring核心包
+        druid包
+        webmvc核心包
+        mybatis核心包
+        json包
+        lombok包
+        spring-orm框架包
+    1.2 spring核心配置（spring-context.xml）
+        1.开启扫描注解
+    1.3 mvc配置（spring-mvc.xml）
+        1.开启spring-mvc注解扫描
+        2.配置json库
+    1.4 mybatis配置（spring-mybatis.xml）
+        1.注入SqlSessionFactory
+        2.扫描所有mapper接口文件
+        3.配置druid连接池
+    1.5 mybatis-config.xml配置（可不配）
+    1.6 web-xml配置
+        1. 配置spring监听器
+        2.加载spring配置文件
+        3.配置DispatcherServlet
